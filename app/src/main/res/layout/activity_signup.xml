@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="56dp"
+    android:paddingRight="24dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/samsung_logo_black"></ImageView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CREATE ACCOUNT"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="25dp"></com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="First Name "
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp"></com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your First Name"
+        android:inputType=""></com.google.android.material.textfield.TextInputEditText>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name "
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp"></com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Last Name"
+        android:inputType=""></com.google.android.material.textfield.TextInputEditText>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Email "
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp"></com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="johnappleased@gmail.com"
+        android:inputType=""></com.google.android.material.textfield.TextInputEditText>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password "
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp"></com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="6-32 characters"
+        android:inputType="textPassword"></com.google.android.material.textfield.TextInputEditText>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider Type "
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp"></com.google.android.material.textview.MaterialTextView>
+
+    <Spinner
+        android:id="@+id/provider_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" I agree to the Terms and Conditions" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Create Account"></com.google.android.material.button.MaterialButton>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="56dp"
+    android:paddingRight="24dp">
+
+
+    <cn.bingoogolapple.qrcode.zbar.ZBarView
+        android:id="@+id/zbarview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:qrcv_animTime="1000"
+        app:qrcv_borderColor="@android:color/white"
+        app:qrcv_borderSize="1px"
+        app:qrcv_cornerColor="#6202ee"
+        app:qrcv_cornerLength="20dp"
+        app:qrcv_cornerSize="5dp"
+        app:qrcv_isShowDefaultScanLineDrawable="true"
+        app:qrcv_isShowTipTextAsSingleLine="true"
+        app:qrcv_isTipTextBelowRect="true"
+        app:qrcv_maskColor="#64000000"
+
+        app:qrcv_qrCodeTipText="Scan Patient QR Code"
+        app:qrcv_rectWidth="200dp"
+        app:qrcv_scanLineColor="#6202ee"
+        app:qrcv_scanLineSize="2dp"
+
+        app:qrcv_tipTextColor="@android:color/white"
+        app:qrcv_tipTextMargin="15dp"
+        app:qrcv_tipTextSize="18dp" />
+
+</LinearLayout>

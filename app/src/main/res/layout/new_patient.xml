@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="56dp"
+    android:paddingRight="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="NEW PATIENT"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="BIO"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="First Name "
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_firstName1"
+        android:layout_width="match_parent" android:inputType="" 
+        android:layout_height="wrap_content"
+        android:hint="johnappleased@gmail.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name "
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_lastName2"
+        android:layout_width="match_parent" android:inputType="" 
+        android:layout_height="wrap_content"
+        android:hint="johnappleased@gmail.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth "
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <DatePicker
+        android:id="@+id/birth_datepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Group "
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <Spinner
+        android:id="@+id/blood_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_alignParentLeft="true"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/next_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_alignParentRight="true"
+            android:text="Next" />
+    </RelativeLayout>
+
+</LinearLayout>

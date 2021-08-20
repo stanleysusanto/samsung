@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="56dp"
+    android:paddingRight="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="NEW PATIENT"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="INSURANCE"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Provider Name "
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_providerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="johnappleased@gmail.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insurance Id "
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_insuranceId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="johnappleased@gmail.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plan Type "
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_planType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="johnappleased@gmail.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RX Group"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_rxGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="johnappleased@gmail.com" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_alignParentLeft="true"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/next_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_alignParentRight="true"
+            android:text="Next" />
+    </RelativeLayout>
+
+</LinearLayout>

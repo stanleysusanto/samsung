@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi Dr. Shoham, who are you treating today?"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="20dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/current_patient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Patient" />
+
+    <TextView
+        android:id="@+id/new_patient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="+New Patient" />
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|right"
+                android:contentDescription="TODO" android:src="@drawable/samsung_logo_black" />
+        </LinearLayout>
+
+    </FrameLayout>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="right|bottom">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon_scan"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|right"
+                android:contentDescription="TODO" android:src="@drawable/qr_scan_icon" />
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>

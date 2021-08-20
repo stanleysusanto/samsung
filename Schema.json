@@ -1,0 +1,292 @@
+[{
+    "PatientID": "123456",
+    
+    "FirstName": "Zoshua",
+    "LastName": "Colah",
+    
+    "Phone":"206-472-7194",
+    "Email": "zcolah@uw.edu",
+    
+    "Address": {
+        "Street1": "3801 Brooklyn Ave",
+        "Street2": "A101-Stevens Court",
+        "City": "Seattle",
+        "State": "Washington",
+        "ZipCode": "98105"
+    }, 
+
+    "Insurance":{
+        "ProviderName": "Lifewise Insurance",
+        "InsuranceID": "234565",
+        "PlanType":"International Student Health Care Plan", 
+        "RXGroup": "None"
+    },
+
+    "Visits": [
+
+            {
+                "VisitID": "1",
+                "Location": "University of Washington Medical Centre, Seattle",
+                "AdmissionRoom": "Main Hall",
+                "PersonResponsibleForAdmission":"Mark Rogers",
+
+                "StartDateTime":"4/12/2019 12:00 pm PST",
+                "EndDateTime":"4/12/2019 4:04 pm PST", 
+
+                "TypeOfVisit": "Inpatient", 
+                "ReasonForVisit": "",
+                
+                "Symptoms":"",
+                "TimeSinceSymptoms": "",
+
+                "QRCode":"",
+
+                "PaymentMade": "",
+
+                "TimeLine": [
+                    
+                    {
+                        "ActionID":"1",
+                        "ActionType":"Observation",
+                        "ActionReason":"Routine",
+                        "EntryDateTime": "4:00 pm PST",
+                        
+                        "Provider": {
+                            "Name":"Jenny Chen",
+                            "Type": "Nurse"
+                        },
+                        
+                        "Location": {
+                            "Room":"Room101",
+                            "BedNumber":"12"
+                        },
+                        
+                        "Details": {
+                            "Condition":"",
+                            "Type": "", 
+                            "Notes": "",
+                            "Height":"",
+                            "Weight":"",
+                            "Temperature":"",
+                            "Pulse": "",
+                            "BloodPressure":"",
+                            "HeartRate":""
+                        }
+                        
+                    }     , 
+                    
+                    {
+                        "ActionID":"2",
+                        "ActionType":"Treatment",
+                        "ActionReason":"Routine",
+                        "EntryDateTime": "5:00 pm PST",
+                        
+                        "Provider": {
+                            "Name":"Dr.Soham Shah",
+                            "Type": "Doctor"
+                        },
+                        
+                        "Location": {
+                            "Room":"Room101",
+                            "BedNumber":"12"
+                        },
+                        
+                        "Details": {
+                            "TreatmentProvided": "",
+                            "TreatmentMedicine":"",
+                            "TreatmentCost":""
+                        }
+                        
+                    }  ,
+
+                    {
+                        "ActionID":"3",
+                        "ActionType":"Prescription",
+                        "ActionReason":"Low Blood Sugar",
+                        "EntryDateTime": "8:00 pm PST",
+                        
+                        "Provider": {
+                            "Name":"Dr.Soham Shah",
+                            "Type": "Doctor"
+                        },
+                        
+                        "Location": {
+                            "Room":"Room101",
+                            "BedNumber":"12"
+                        },
+                        
+                        "Details": {
+                            "MedicinesNeeded": [
+                                {"Name":"Flagyl", "Dosage": "20mg"},
+                                {"Name":"Xanax", "Dosage": "20mg"}
+                            ]
+                        }
+                        
+                    }  
+
+                ]
+            }        
+
+
+
+    ]
+},
+
+{
+    "PatientID": "123456",
+    
+    "FirstName": "Zoshua",
+    "LastName": "Colah",
+    
+    "Phone":"206-472-7194",
+    "Email": "zcolah@uw.edu",
+    
+    "Address": {
+        "Street1": "3801 Brooklyn Ave",
+        "Street2": "A101-Stevens Court",
+        "City": "Seattle",
+        "State": "Washington",
+        "ZipCode": "98105"
+    }, 
+
+    "Insurance":{
+        "ProviderName": "Lifewise Insurance",
+        "InsuranceID": "234565",
+        "PlanType":"International Student Health Care Plan", 
+        "RXGroup": "None"
+    },
+
+    "Visits": [
+
+            {
+                "VisitID": "1",
+                "Location": "University of Washington Medical Centre, Seattle",
+                "AdmissionRoom": "Main Hall",
+                "PersonResponsibleForAdmission":"Mark Rogers",
+
+                "StartDateTime":"4/12/2019 12:00 pm PST",
+                "EndDateTime":"4/12/2019 4:04 pm PST", 
+
+                "TypeOfVisit": "Inpatient", 
+                "ReasonForVisit": "",
+                
+                "Symptoms":"",
+                "TimeSinceSymptoms": "",
+
+                "QRCode":"",
+
+                "PaymentMade": "",
+
+                "TimeLine": [
+                    
+                    {
+                        "ActionID":"1",
+                        "ActionType":"Observation",
+                        "ActionReason":"Routine",
+                        "EntryDateTime": "4:00 pm PST",
+                        
+                        "Provider": {
+                            "Name":"Jenny Chen",
+                            "Type": "Nurse"
+                        },
+                        
+                        "Location": {
+                            "Room":"Room101",
+                            "BedNumber":"12"
+                        },
+                        
+                        "Details": {
+                            "Condition":"",
+                            "Type": "", 
+                            "Notes": "",
+                            "Height":"",
+                            "Weight":"",
+                            "Temperature":"",
+                            "Pulse": "",
+                            "BloodPressure":"",
+                            "HeartRate":""
+                        }
+                        
+                    }     , 
+                    
+                    {
+                        "ActionID":"2",
+                        "ActionType":"Treatment",
+                        "ActionReason":"Routine",
+                        "EntryDateTime": "5:00 pm PST",
+                        
+                        "Provider": {
+                            "Name":"Dr.Soham Shah",
+                            "Type": "Doctor"
+                        },
+                        
+                        "Location": {
+                            "Room":"Room101",
+                            "BedNumber":"12"
+                        },
+                        
+                        "Details": {
+                            "TreatmentProvided": "",
+                            "TreatmentMedicine":"",
+                            "TreatmentCost":""
+                        }
+                        
+                    }  ,
+
+                    {
+                        "ActionID":"3",
+                        "ActionType":"Prescription",
+                        "ActionReason":"Low Blood Sugar",
+                        "EntryDateTime": "8:00 pm PST",
+                        
+                        "Provider": {
+                            "Name":"Dr.Soham Shah",
+                            "Type": "Doctor"
+                        },
+                        
+                        "Location": {
+                            "Room":"Room101",
+                            "BedNumber":"12"
+                        },
+                        
+                        "Details": {
+                            "MedicinesNeeded": [
+                                {"Name":"Flagyl", "Dosage": "20mg"},
+                                {"Name":"Xanax", "Dosage": "20mg"}
+                            ]
+                        }
+                        
+                    }  , 
+
+                    {
+                        "ActionID":"4",
+                        "ActionType":"MRI Scan",
+                        "ActionReason":"Routine",
+                        "EntryDateTime": "4:00 pm PST",
+                        
+                        "Provider": {
+                            "Name":"Jenny Chen",
+                            "Type": "Nurse"
+                        },
+                        
+                        "Location": {
+                            "Room":"Room101",
+                            "BedNumber":"12"
+                        },
+                        
+                        "Details": {
+                            "Condition":"",
+                            "Type": "", 
+                            "Images": ""
+                        }
+                        
+                    } 
+                    
+
+                ]
+            }        
+
+
+
+    ]
+}]

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="56dp"
+    android:paddingRight="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="NEW VISIT"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Location "
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="johnappleased@gmail.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admission Room"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_admissionRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="johnappleased@gmail.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Person Responsible for Admission"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_responsiblePerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="johnappleased@gmail.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tyoe of Visit"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Inpatient"
+            android:paddingHorizontal="10dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Outpatient" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reasons for visit"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_visitReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="johnappleased@gmail.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Symptoms"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_symptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="johnappleased@gmail.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Since Symptoms"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_symptomsTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="johnappleased@gmail.com" />
+
+    <Button
+        android:id="@+id/btn_addVisit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Add Visit" />
+
+
+</LinearLayout>
